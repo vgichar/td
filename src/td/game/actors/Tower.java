@@ -12,9 +12,9 @@ import td.game.definitions.doables.IDrawable;
 import java.awt.Graphics2D;
 import java.awt.Point;
 import java.util.HashMap;
-import td.game.definitions.actors.IActor;
-import td.game.definitions.actors.ICommand;
-import td.game.definitions.actors.IVisual;
+import td.game.definitions.types.IActor;
+import td.game.definitions.types.ICommand;
+import td.game.definitions.types.IVisual;
 
 /**
  *

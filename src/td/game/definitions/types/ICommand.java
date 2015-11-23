@@ -3,15 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package td.game.definitions.actors;
+package td.game.definitions.types;
 
-import java.awt.Graphics2D;
-import td.game.definitions.doables.IDrawable;
+import td.game.definitions.doables.IRunnable;
 
 /**
  *
  * @author vojda_000
  */
-public interface IVisual {
-    void draw(Graphics2D g, IDrawable owner);
+public interface ICommand extends IRunnable{
+    
 }

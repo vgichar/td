@@ -8,8 +8,8 @@ package td.game.factories;
 import java.awt.Point;
 import td.game.actors.Creep;
 import td.game.actors.Tower;
-import td.game.definitions.actors.ICommand;
-import td.game.definitions.actors.IVisual;
+import td.game.definitions.types.ICommand;
+import td.game.definitions.types.IVisual;
 
 /**
  *

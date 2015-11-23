@@ -5,7 +5,7 @@
  */
 package td.game.definitions.doables;
 
-import td.game.definitions.actors.ICommand;
+import td.game.definitions.types.ICommand;
 /**
  *
  * @author vojda_000

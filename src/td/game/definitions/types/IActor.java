@@ -3,14 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package td.game.definitions.actors;
+package td.game.definitions.types;
 
-import td.game.definitions.doables.IRunnable;
+import td.game.definitions.doables.IIdentifiable;
 
 /**
  *
  * @author vojda_000
  */
-public interface ICommand extends IRunnable{
+public interface IActor extends IIdentifiable {
     
 }

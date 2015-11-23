@@ -7,7 +7,7 @@ package td.game.actors.visuals;
 
 import java.awt.Graphics2D;
 import td.game.actors.Tower;
-import td.game.definitions.actors.IVisual;
+import td.game.definitions.types.IVisual;
 import td.game.definitions.doables.IDrawable;
 
 /**

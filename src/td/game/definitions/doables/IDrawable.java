@@ -6,7 +6,7 @@
 package td.game.definitions.doables;
 
 import java.awt.Graphics2D;
-import td.game.definitions.actors.IVisual;
+import td.game.definitions.types.IVisual;
 
 /**
  *

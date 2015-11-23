@@ -6,25 +6,18 @@
 package td.game.injectors;
 
 import java.util.LinkedList;
+import td.game.World;
 import td.game.actors.Tower;
-import td.game.definitions.actors.ICommand;
+import td.game.definitions.types.ICommand;
 import td.game.definitions.doables.IInjectable;
-import td.game.factories.TowerFactory;
 
 /**
  *
  * @author vojda_000
  */
-public class TowerInjector implements IInjector<LinkedList<Tower>> {
+public class TowerInjector {
 
-    @Override
     public <TCommand extends ICommand & IInjectable<LinkedList<Tower>>> void injectInto(TCommand c) {
-        LinkedList<Tower> towers = new LinkedList<>();
-        towers.add(TowerFactory.createTower().build());
-        towers.add(TowerFactory.createTower().build());
-        towers.add(TowerFactory.createTower().build());
-        
-        c.inject(towers);
-        c.run();
+        c.inject(new LinkedList<>(World.towers.values()));
     }
 }
